@@ -1,0 +1,434 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav
+{
+    border-bottom: 2px solid black;
+}
+.laptop-size-link
+{
+    color: black;
+    font-weight: 400;
+    
+}
+.navbar
+{
+    z-index: 99;
+}
+.short-live
+{
+    width: 65px; 
+    color: black;
+    font-weight: 400;
+}
+.long-live
+{
+    width: 110px; 
+    color: black;
+    font-weight: 400;
+}
+.short-livest
+{
+    width: 85px; 
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.long-livest
+{
+    width: 130px; 
+    color: black;
+    font-weight:400;
+    text-align: center;
+}
+.laptop-size-link:hover,.short-livest:hover,.long-livest:hover
+{
+    color: black;
+    font-style: italic;
+}
+.nav-new
+{
+    position: absolute;
+    top: 100%;
+    left: 1.5%;
+    color: white;
+    background-color: white;
+    width: 97%;
+    color: black;
+}
+.nav-new2
+{
+    position: absolute;
+    top: 100%;
+    left: 1.5%;
+    color: white;
+    background-color: white;
+    width: 97%;
+    color: black;
+    height: 100vh;
+    overflow: scroll;
+}
+.nav-new-kid,.sale-kid
+{
+    cursor: pointer;
+}
+.nav-new-kid:hover,.sale-kid:hover
+{
+    font-style: italic;
+}
+.nav-new-media
+{
+    position: absolute;
+    top: 91.9%;
+    left: 1.5%;
+    color: white;
+    background-color: white;
+    width: 97%;
+    height: auto;
+    color: black;
+}
+.nav-link
+{
+    padding: 10px;
+}
+.nav-wrapper
+{
+    border-bottom: 2px solid black;
+}
+.media-nav
+{
+    
+    font-size: 12px;
+}
+.back
+{
+    cursor: pointer;
+}
+.form-valid
+{
+    background-color: #ececec;
+    position: relative;
+    top: 87px;
+}
+.login-name
+{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+.acco-log-name
+{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+.acco-log-name a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.blank{
+    width: 100%;
+    transition: all 0.5s;
+    border-bottom:3px solid black;
+    position: absolute;
+    top: 100%;
+    left: 0%; 
+}
+.login:hover .blank
+{
+   width: 0%;
+}
+.informatin-ditails
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin: 27px 0px;
+}
+.input-ins
+{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.input-ins input
+{
+    width: 100%;
+    border: none;
+    background-color: #ececec;
+    border-bottom: 1px solid black;
+    margin: 50px 0px 0px 0px;
+    outline: none;
+}
+.check p
+{
+    font-weight: 500;
+}
+.check p input
+{
+    transform: scale(1.4);
+}
+.btn-login
+{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.input-ins .erros
+{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+}
+.sign-emoj
+{
+    position: relative;
+}
+.sign-in
+{
+    background-color: rgb(221, 221, 221);
+    color: white;
+    padding: 20px;
+    width: 500px;
+    position: absolute;
+    top: 105%;
+    right: -70%;
+    color: black;
+    z-index: 2;
+}
+.input-in
+{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin: 30px 0px 20px 0px;
+}
+.input-in input
+{
+    width: 90%;
+    border: none;
+    background-color: rgb(221, 221, 221);
+    border-bottom: 1px solid black;
+    margin: 0px 0px 0px 0px;
+    outline: none;
+}
+.create-acc
+{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.create-acc .acc-line
+{
+   position: absolute;
+   top: 100%;
+   left: 0%;
+   width: 100%;
+   height: 2px;
+   background-color: black;
+   transition: all 0.5s;
+}
+.create-acc:hover .acc-line
+{
+    width: 0%;
+}
+.erros
+{
+    position: absolute;
+    top: 100%;
+    left: 7%;
+}
+#login
+{
+    z-index: 1;
+}
+.login-btn
+{
+    width: 100%;
+    padding: 0px 0px 3px 15px;
+    text-align: start;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.sign-in-media
+{
+    background-color: rgb(221, 221, 221);
+    color: white;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    color: black;
+}
+.body-wrap
+{
+   position: relative;
+   top: 86%;
+   z-index: -1;
+}
+@media(min-width:0px) and (max-width:576px)
+{
+    .media-nav ul{
+        overflow: auto;
+    }
+    .media-nav ul::-webkit-scrollbar
+    {
+        background-color: transparent
+    };
+    .media-nav ul li .laptop-size-link{
+        width: 0px;
+    }
+    .long-live
+    {
+        width: 110px; 
+        color: black;
+        font-weight: 400;
+        text-align: center;
+    }
+    .short-live
+    {
+        width: 65px; 
+        color: 500;
+        font-weight: 400;
+        text-align: center;
+    }
+    .form-valid
+    {
+        z-index: 0;
+    }
+    .sign-in-media
+    {
+        z-index: 1;
+    }.login-name
+    {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 0%;
+    }
+    .informatin-ditails
+{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+}
+.input-ins input
+{
+    width: 100%;
+    border: none;
+    background-color: #ececec;
+    border-bottom: 1px solid black;
+    margin: 35px 0px 0px 0px;
+    outline: none;
+}
+.form-valid
+{
+    background-color: #ececec;
+    position: relative;
+    top: 0px;
+}
+}
+
+@media(min-width:576px) and (max-width:768px)
+{
+    .sign-in-media
+{
+    background-color: rgb(221, 221, 221);
+    color: white;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    color: black;
+}
+.form-valid
+{
+    background-color: #ececec;
+    position: relative;
+    top: 0px;
+}
+}
+
+
+
+@media(min-width:768px) and (max-width:992px)
+{
+    .sign-in-media
+{
+    background-color: rgb(221, 221, 221);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    color: black;
+}
+.form-valid
+{
+    background-color: #ececec;
+    position: relative;
+    top: 0px;
+}
+}
+
+
+@media(min-width:992px) and (max-width:1200px)
+{
+    .sign-in-media
+{
+    background-color: rgb(221, 221, 221);
+    color: white;
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    color: black;
+}
+.form-valid
+{
+    background-color: #ececec;
+    position: relative;
+    top: 0px;
+}
+}
+
+@media(min-width:1200px) and (max-width:1400px)
+{
+    .sign-in-media
+{
+    background-color: rgb(221, 221, 221);
+    color: white;
+    padding: 20px;
+    width: 35%;
+    margin: auto;
+    position: absolute;
+    top: 93%;
+    right: 5%;
+    color: black;
+}
+
+.form-valid
+{
+    background-color: #ececec;
+    position: relative;
+    top: 87px;
+}
+}
