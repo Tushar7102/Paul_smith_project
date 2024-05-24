@@ -111,3 +111,24 @@ bags.addEventListener("click",(event)=>{
 
 
 
+
+
+
+
+
+
+// // DELETE request
+// fetch(`http://localhost:3000/posts/${postIdToDelete}`, {
+//   method: 'DELETE',
+// })
+// .then(response => {
+//   if (response.ok) {
+//     console.log('DELETE request successful');
+//   } else {
+//     console.error('Failed to delete:', response.statusText);
+//   }
+// })
+// .catch(error => console.error('Error:', error));
+
+
+
