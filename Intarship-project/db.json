@@ -930,6 +930,23 @@
         "https://assets.paulsmith.com/paul-smith-storyblok/f_webp,q_auto,w_922/v1703064612/Product/M1R/M1R-2213-M02213-20/M1R-2213-M02213-20_1",
         "https://assets.paulsmith.com/paul-smith-storyblok/f_webp,q_auto,w_460/v1703064625/Product/M1R/M1R-2213-M02213-20/M1R-2213-M02213-20_6"
       ]
+    },
+    {
+      "id": "22",
+      "title": "The Soho - Tailored-Fit Navy Sharkskin Suit",
+      "price": 1695,
+      "brand": "Apple",
+      "category": "Suits",
+      "images": [
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,ar_5:7,c_fill,w_828/v1697545834/MODEL/ECOM/M1R/M1R-1439-K00986-49/M1R-1439-K00986-49_1",
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,ar_5:7,c_fill,w_614/v1670335215/STILL/M1R/M1R-1439-K00986-49/M1R-1439-K00986-49_10",
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,w_716/v1697545834/MODEL/ECOM/M1R/M1R-1439-K00986-49/M1R-1439-K00986-49_1",
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,w_716/v1715266868/MODEL/ECOM/M1R/M1R-1439-K00986-49/M1R-1439-K00986-49_7",
+        "https://assets.paulsmith.com/paul-smith-storyblok/f_webp,q_auto,w_922/v1709717448/Product/M1R/M1R-626Y-M02308-23/M1R-626Y-M02308-23_2",
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,w_716/v1714741458/MODEL/ECOM/M1R/M1R-626Y-M02308-23/M1R-626Y-M02308-23_4",
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,ar_5:7,c_fill,w_614/v1702983648/STILL/M1S/M1S-MON01-MPAR-79/M1S-MON01-MPAR-79_50",
+        "https://assets.paulsmith.com/paul-smith-products/f_webp,q_auto,ar_5:7,c_fill,w_614/v1713175312/MODEL/ECOM/M1R/M1R-222P-H00110-48A/M1R-222P-H00110-48A_2"
+      ]
     }
   ]
 }
