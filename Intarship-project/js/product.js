@@ -53,6 +53,21 @@ function singleCard(images,price,title,id) {
   return card
 }
 
+let low=document.querySelector(".low")
+console.log(low)
+low=document.addEventListener("click",()=>{
+    let sortdata=productdata.sort((a,b)=>a.price-b.price)
+  cardlist(sortdata)
+})
+
+let high=document.querySelector(".hign")
+console.log(high)
+high=document.addEventListener("click",()=>{
+    let sortdata=productdata.sort((a,b)=>b.price-a.price)
+  cardlist(sortdata)
+})
+
+    
 let dataformhomesuits=new URLSearchParams(window.location.search)
 
 window.addEventListener("load",()=>{
@@ -117,18 +132,7 @@ bags.addEventListener("click",(event)=>{
 
 
 
-// // DELETE request
-// fetch(`http://localhost:3000/posts/${postIdToDelete}`, {
-//   method: 'DELETE',
-// })
-// .then(response => {
-//   if (response.ok) {
-//     console.log('DELETE request successful');
-//   } else {
-//     console.error('Failed to delete:', response.statusText);
-//   }
-// })
-// .catch(error => console.error('Error:', error));
+
 
 
 
