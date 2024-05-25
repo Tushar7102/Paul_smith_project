@@ -52,21 +52,6 @@ function singleCard(images,price,title,id) {
 `
   return card
 }
-
-let low=document.querySelector(".low")
-console.log(low)
-low=document.addEventListener("click",()=>{
-    let sortdata=productdata.sort((a,b)=>a.price-b.price)
-  cardlist(sortdata)
-})
-
-let high=document.querySelector(".hign")
-console.log(high)
-high=document.addEventListener("click",()=>{
-    let sortdata=productdata.sort((a,b)=>b.price-a.price)
-  cardlist(sortdata)
-})
-
     
 let dataformhomesuits=new URLSearchParams(window.location.search)
 
@@ -77,17 +62,41 @@ window.addEventListener("load",()=>{
     if(dataformhomesuits.get("category")=="Suits")
       {
         cardlist(filterdata)
+        let low=document.querySelector(".low")
+console.log(low)
+low=document.addEventListener("click",()=>{
+    let sortdata=productdata.sort((a,b)=>a.price-b.price)
+  cardlist(sortdata)
+})
       }
 
    else if(dataformhomesuits.get("category")==="PoloShirts"){
     cardlist(filterdata)
+    let low=document.querySelector(".low")
+console.log(low)
+low=document.addEventListener("click",()=>{
+    let sortdata=productdata.sort((a,b)=>a.price-b.price)
+  cardlist(sortdata)
+})
    }
    else if(dataformhomesuits.get("category")==="Shirt")
     {
       cardlist(filterdata)
+      let low=document.querySelector(".low")
+console.log(low)
+low=document.addEventListener("click",()=>{
+    let sortdata=productdata.sort((a,b)=>a.price-b.price)
+  cardlist(sortdata)
+})
     }
       else{
         fetdata()
+        let low=document.querySelector(".low")
+console.log(low)
+low=document.addEventListener("click",()=>{
+    let sortdata=productdata.sort((a,b)=>a.price-b.price)
+  cardlist(sortdata)
+})
       }
   },50)
 })
