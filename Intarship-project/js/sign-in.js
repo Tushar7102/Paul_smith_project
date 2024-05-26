@@ -51,7 +51,7 @@ sign.addEventListener("submit", (e) => {
             let store = loginformdata.filter((el, i) => el.email == signinobj.email && el.password == signinobj.password)
             if (store[0]) {
                 alert(`succesfullty Login Welcome`)
-                window.location = "home.html"
+                window.location = "index.html"
               } else {
                 alert("Invalid password || email")
               }
@@ -109,7 +109,7 @@ sign_media.addEventListener("submit", (e) => {
             let store = loginformdata.filter((el, i) => el.email == signinobj.email && el.password == signinobj.password)
             if (store[0]) {
                 alert(`succesfullty Login Welcome`)
-                window.location = "home.html"
+                window.location = "index.html"
               } else {
                 alert("Invalid password || email")
               }

@@ -65,7 +65,7 @@ window.addEventListener("load",()=>{
         let low=document.querySelector(".low")
 console.log(low)
 low=document.addEventListener("click",()=>{
-    let sortdata=productdata.sort((a,b)=>a.price-b.price)
+    let sortdata=filterdata.sort((a,b)=>a.price-b.price)
   cardlist(sortdata)
 })
       }
@@ -73,29 +73,26 @@ low=document.addEventListener("click",()=>{
    else if(dataformhomesuits.get("category")==="PoloShirts"){
     cardlist(filterdata)
     let low=document.querySelector(".low")
-console.log(low)
-low=document.addEventListener("click",()=>{
-    let sortdata=productdata.sort((a,b)=>a.price-b.price)
-  cardlist(sortdata)
+    low=document.addEventListener("click",()=>{
+    let sortdata=filterdata.sort((a,b)=>a.price-b.price)
+    cardlist(sortdata)
 })
    }
    else if(dataformhomesuits.get("category")==="Shirt")
     {
       cardlist(filterdata)
       let low=document.querySelector(".low")
-console.log(low)
-low=document.addEventListener("click",()=>{
-    let sortdata=productdata.sort((a,b)=>a.price-b.price)
-  cardlist(sortdata)
+      low=document.addEventListener("click",()=>{
+      let sortdata=filterdata.sort((a,b)=>a.price-b.price)
+      cardlist(sortdata)
 })
     }
       else{
         fetdata()
         let low=document.querySelector(".low")
-console.log(low)
-low=document.addEventListener("click",()=>{
-    let sortdata=productdata.sort((a,b)=>a.price-b.price)
-  cardlist(sortdata)
+        low=document.addEventListener("click",()=>{
+        let sortdata=productdata.sort((a,b)=>a.price-b.price)
+        cardlist(sortdata)
 })
       }
   },50)

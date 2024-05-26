@@ -1,11 +1,11 @@
 const backey = document.getElementById("back");
 backey.addEventListener('click', () => {
-    window.location = "home.html";
+    window.location = "index.html";
 })
 
 const logins=document.getElementById("login")
 logins.addEventListener('click', () => {
-    window.location = "home.html";
+    window.location = "index.html";
 })
 
 
@@ -104,7 +104,7 @@ login.addEventListener("submit", (e) => {
             } 
             arr.push(obj)
             localStorage.setItem('userinfo',JSON.stringify(arr))
-            window.location = "home.html";
+            window.location = "index.html";
     }
     else
     {
@@ -155,7 +155,7 @@ sign.addEventListener("submit", (e) => {
             let store = loginformdata.filter((el, i) => el.email == signinobj.email && el.password == signinobj.password)
         if (a[0]) {
                 alert(`succesfullty Login Welcome`)
-                window.location = "home.html"
+                window.location = "index.html"
               } else {
                 alert("Invalid password || email")
               }
@@ -210,7 +210,7 @@ sign_media.addEventListener("submit", (e) => {
             let store = loginformdata.filter((el, i) => el.email == signinobj.email && el.password == signinobj.password)
             if (store[0]) {
                 alert(`succesfullty Login Welcome`)
-                window.location = "home.html"
+                window.location = "index.html"
               } else {
                 alert("Invalid password || email")
               }
